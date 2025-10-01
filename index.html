@@ -4,64 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Duda Taylor</title>
+     <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: black;
+      color: white;
+    }
+    /* Header */
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px 40px;
+    }
+    header h1 {
+      font-size: 180px;
+      font-weight: bold;
+      margin-bottom:5px;
+      color: #ccc;
+    }
+    /* Social icons */
+    .social {
+      display: flex;
+      gap: 10px;
+    }
+    .social img {
+      width: 35px;
+      height: 35px;
+      border-radius: 5px;
+      
+        }
+    /* Container das caixas */
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      gap: 40px;
+      margin-top: 10px;
+    }
+    .card {
+      width: 250px;
+      border: 2px solid white;
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      
+    }
+    .card img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    .card h2 {
+      margin: 10px 0;
+      font-size: 20px;
+    }
+    .card p {
+      font-size: 14px;
+      white-space: pre-line; /* mantém quebras de linha no HTML */
+    }
+    </style>
 </head>
 <body>
     <!-- Cabeçalho (tag header) -->
      <header>
         <div>Duda Taylor</div>
-        <style>
-            body {
-                font-family: Arial, Arial, Helvetica, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color: black;
-                color: white;
-            }
-            /* Cabeçalho (header) */
-            header {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 20px 40px;
-            }
-            header h1 {
-                font-size: 80px;
-                font-weight: bold;
-                color: white;
-            }
-            /* Navegação (nav) */
-            .social-media a {
-                display: flex;
-                gap: 10px;
-            }
-            /* Cartões (cards) */
-            .social img {
-                width: 35px;
-                height: 35px;
-                border-radius: 5px;
-            }
-            /*container dos cards*/
-            .container {
-                display: flex;
-                justify-content: center;
-                align-items: flex-start;
-                gap: 40px;
-                margin-top: 60px;
-            }
-            .card {
-                width: 250px;
-                border: 2px solid white;
-                padding: 20px;
-                text-align: center;
-                border-radius: 5px;
-            }
-            .card img {
-                width: 100px;
-                height: 100px;
-                border-radius: 50px;
-            }
-        </style>
-        <div class = "social-media">
+        <div class = "social">
             <a href="https://www.instagram.com/dudataylorsa"><img src="instagram-icon.png" alt="Instagram"></a>
             <a href="https://www.tiktok.com/@dudataylorsa"><img src="tiktok-icon.png" alt="TikTok"></a>
             <a href="https://www.twitter.com/dudataylorsa"><img src="twitter-icon.png" alt="Twitter"></a>
